@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace ARArt.Common
+{
+    /// <summary>
+    /// Settings. global Keys for SDK Keys, IDs etc.
+    /// </summary>
+    public static class AppSettings
+    {
+        public static string IBeaconID = "7104E978-31A9-44B3-B510-04FC69B11194";
+        public static string WikitudeSDKkeyAndroid = "2Wjf/RmiWhq5HNZflbUcpORkwOBPKyrGmA6SI3RXGDP6BzEiX+fV9YYiJ/8EMlGP275erNAzvZfqcEWSvo5yp2qSzh+ES/1W0X7K0v7uvZ9BUsOsmhQWlMQDYoYQKoc973ZOFE/F1HjwuddOE+LBsVPKU+As9funIOhqwLHt/C5TYWx0ZWRfX4hAjvqM9RqAJxnzI07dU27szqcloUTdk2/gelVEDAKvG1Axmjcl4v/UakRMu4LNl/25W8JoL8/9BWq5lKSATtXxazkviIwiy9J2HpcLQPOqdSHYDXt0mA4UmG6akTv9cVnQyKQ4xjy9UZFbbEVFrvMVdC2ZES7x/hYpdxp29svBfgXfC7ZHIi9X5uupCkg90mDfjhRaMnljulm4yU5lzp825DjcSJ2ANY5iKdhFXGqVzCYnEsazbqSbzYMpJ/b1IWkmT/DRKXWEuHmLIQhyvEd4abz81dF9uOw2u9BKRUKaNAAT34uZuzXI0VMWnH1VlvrnxQqBQgNEsgx8XoB3NEsC0JDHpTxlfnxQxEO4obNq5RVMYxpRi8M7GBR/RRQxJjwntTnRFHlfGJWx0d2cZ6yT9p9vs5Ln8dqknlFwJKqN8OfXREiguFm03HuzB/AoSbweoQ+3TIu1cGW4zlauG+8EEpR/X/o2NYP2PKfjbx54O/Qn4PfP0s4=";
+        public static string WikitudeSDKkeyiOS = "sAHTeUpypah0wzhx1uDW5rcErH5BdpqtB8ovdLcPIgldCET91BTgFQohrzcjGb3oE7I/h+uHZJ9So6iCNE/cmhvXkXg3cIKw2S8IBJvpXRRiGuHRFIrFz3P2/yznJe6op6lC5tBRMAe9cO+uq4R9fRQ+zbUhD3wTvJkl+lQWeU9TYWx0ZWRfX4kqKoKgVBsSThKFmM7eIFa5rHiFX5y/8BKexArCF7FF/PL3BHGs5LIE1Yoxis3EuRk1GqRRsXKwDp+8I6JrrQcNuSJUT8dwlkwc6FdgplitPe7u7CnpqaITAISFBuwSAd0ZsqoL4bZ5wp0JhtN7cSeCnvdHc4tnu9LGlEbtzPFNuTrr8mMCveW9jdpcM+SQX2h2IBvnGi2XZVyfLYfq0AX1dGLF/QBtGXyevAUF3iXrSVa7uD9dtXkNoaRkdcE8tdG+07l0hcAYyJSiKx97yRUo1pUNVSonZXOZfBDezp6r7QRvwwZmtziDnsVcWsJKtbM9O3lErsaqkJOKIOZxOWACwuHA45S2i8keotm35VjKARMHACWyiuVAYP5IeMTvPycNUFwo4YP4Pw0mbRK8OJe/cv9sWzV6Gcr2uNKk6rFM+sYHatcUE027Qmm/isfnzehbCIfubffYUvaVDHDzbrsh4KhJL2lpl4UmZuBaX/4K8nSNfoPM8hc=";
+    }
+}
