@@ -2,7 +2,7 @@
 
 ##What is this?
 
-Example for using Xamarin.Forms with [Wikitude](http://www.wikitude.com/) AR library and Bluetooth iBeacons from 2013 done as a University Project.
+Example for using Xamarin.Forms with [Wikitude](http://www.wikitude.com/) AR library and Bluetooth iBeacons on Android and iOS from 2013 done as a University Project.
 
 ##How to use?
 
