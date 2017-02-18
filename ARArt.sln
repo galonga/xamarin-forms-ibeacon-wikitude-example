@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARArt", "ARArt\ARArt.csproj", "{81CE2DF8-6C4F-443A-921F-2146077DE23C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARArt.iOS", "iOS\ARArt.iOS.csproj", "{D79DD679-1ABA-41CB-9023-B5D93DFAD9AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARArt.iOS", "ARArt.iOS\ARArt.iOS.csproj", "{D79DD679-1ABA-41CB-9023-B5D93DFAD9AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARArt.Android", "Android\ARArt.Android.csproj", "{C5299698-7C5D-4220-AA7A-58115B20DC51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARArt.Android", "ARArt.Android\ARArt.Android.csproj", "{C5299698-7C5D-4220-AA7A-58115B20DC51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikitude.iOS", "Wikitude\Wikitude.iOS.csproj", "{273637CB-AC56-4C20-B57A-CCB74E2C19E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikitude.iOS", "Wikitude.iOS\Wikitude.iOS.csproj", "{273637CB-AC56-4C20-B57A-CCB74E2C19E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikitude.Android", "Wikitude.Android\Wikitude.Android.csproj", "{6E796D12-38B8-4183-A526-3AFB6A95AD3F}"
 EndProject
@@ -128,7 +128,7 @@ Global
 		$3.DirectoryNamespaceAssociation = PrefixedHierarchical
 		$3.ResourceNamePolicy = FileFormatDefault
 		$0.StandardHeader = $4
-		$4.Text = 
+		$4.Text =
 		$4.IncludeInNewFiles = True
 		$0.NameConventionPolicy = $5
 		$5.Rules = $6
