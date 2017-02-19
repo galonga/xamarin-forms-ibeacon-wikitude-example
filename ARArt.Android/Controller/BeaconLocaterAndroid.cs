@@ -13,7 +13,6 @@ using ARArt.Common;
 using ARArt.Models;
 
 [assembly: Dependency(typeof(BeaconLocaterAndroid))]
-
 namespace ARArt.Android
 {
     public class BeaconLocaterAndroid : Java.Lang.Object, IBeaconLocater, IBeaconConsumer
