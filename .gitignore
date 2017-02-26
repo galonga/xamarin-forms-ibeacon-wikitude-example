@@ -1,3 +1,4 @@
+
 # Autosave files
 *~
 
@@ -53,6 +54,10 @@ Temporary Items
 .apdisk
 
 # NuGet Packages
+packages/
+
+# components
+Components/
 
 # resharper
 *_Resharper.*
