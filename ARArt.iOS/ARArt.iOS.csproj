@@ -3,12 +3,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{D79DD679-1ABA-41CB-9023-B5D93DFAD9AA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ARArt.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>ARArtiOS</AssemblyName>
+    <TargetFrameworkIdentifier>Xamarin.iOS</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,6 +67,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>full</DebugType>
@@ -79,7 +82,7 @@
     </IpaPackageName>
     <MtouchI18n>
     </MtouchI18n>
-    <MtouchArch>ARMv7</MtouchArch>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
     <BuildIpa>true</BuildIpa>
     <IpaMetadata>Entitlements.plist</IpaMetadata>
   </PropertyGroup>
@@ -95,13 +98,12 @@
     <CodesignProvision>e0e0d22e-d62d-40c5-a6ac-9d26ffa4dcb9</CodesignProvision>
     <MtouchI18n>
     </MtouchI18n>
-    <MtouchArch>ARMv7</MtouchArch>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="monotouch" />
     <Reference Include="System.Json" />
     <Reference Include="MonoTouch.Dialog-1" />
     <Reference Include="Xamarin.Forms.Platform.iOS.Classic">
@@ -119,6 +121,7 @@
     <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
       <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.0.7\lib\MonoTouch10\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ARArt\ARArt.csproj">
@@ -178,8 +181,8 @@
     <Compile Include="BeaconLocateriOS.cs" />
     <Compile Include="Renderer\ARPageRenderer.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-568h%402x.png" />

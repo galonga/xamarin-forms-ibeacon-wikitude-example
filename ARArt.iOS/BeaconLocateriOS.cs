@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using ARArt;
 using Xamarin.Forms;
 using ARArt.iOS;
-using MonoTouch.CoreLocation;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using CoreLocation;
+using Foundation;
+using UIKit;
 using System.Collections.Generic;
 using ARArt.Models;
 using ARArt.Common;
@@ -107,7 +107,7 @@ namespace ARArt
 			if (e.Region.Identifier.Equals (roximityBeaconId)) {
 				locationManager.StartRangingBeacons (rBeaconRegion);
 				var notification = new UILocalNotification { AlertBody = "Ein Bild ist in der nähe" };
-				UIApplication.SharedApplication.PresentLocationNotificationNow (notification);
+				UIApplication.SharedApplication.PresentLocalNotificationNow (notification);
 			} 
 		}
 
