@@ -29,8 +29,6 @@ namespace ARArt.Android
 
             Xamarin.Forms.Forms.Init(this, bundle);
 
-            ImageCircleRenderer.Init();
-
             SetPage(App.GetMainPage());
         }
     }

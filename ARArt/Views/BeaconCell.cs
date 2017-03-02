@@ -11,9 +11,7 @@ namespace ARArt.Views
             int photoHeight = Device.OnPlatform(50, 50, 80);
             int photoWidth = Device.OnPlatform(80, 50, 80);
 
-            var iconCircleImage = new CircleImage {
-                BorderColor = Color.White,
-                BorderThickness = 2,
+            var iconCircleImage = new Image {
                 HeightRequest = photoHeight,
                 WidthRequest = photoWidth,
                 Aspect = Aspect.Fill,

@@ -21,7 +21,6 @@ using ARArt.Pages;
 using ARArt.Common;
 
 [assembly: ExportRenderer(typeof(ARArt.Pages.ARPage), typeof(ARArt.iOS.Renderer.ARPageRenderer))]
-
 namespace ARArt.iOS.Renderer
 {
     public class ARPageRenderer : PageRenderer
@@ -36,7 +35,6 @@ namespace ARArt.iOS.Renderer
         public ARPageRenderer() : base()
         {
             IsUrl = false;
-
         }
 
         /// <summary>

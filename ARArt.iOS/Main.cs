@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Foundation;
 using UIKit;
-using ImageCircle.Forms.Plugin.iOS;
 
 namespace ARArt.iOS
 {
@@ -15,7 +10,6 @@ namespace ARArt.iOS
             // if you want to use a different Application Delegate class from "AppDelegate"
             // you can specify it here.
             UIApplication.Main(args, null, "AppDelegate");
-            ImageCircleRenderer.Init();
         }
     }
 }
